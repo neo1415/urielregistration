@@ -54,13 +54,20 @@ const Confirm = ({values}) => {
     <div className='confirm'>
      <h4 className='confirmTitle'>Please Confirm your data</h4>
     <ListGroup>
-        <ListGroup.Item>First Name : {firstName} </ListGroup.Item>
-        <ListGroup.Item>Second Name : {lastName} </ListGroup.Item>
-        <ListGroup.Item>Email Name : {email} </ListGroup.Item>
-        <ListGroup.Item> gender: {gender}</ListGroup.Item>
-        <ListGroup.Item>  birthday : {birthday}</ListGroup.Item>
-        <ListGroup.Item> Level Of Education : {levelOfEducation}</ListGroup.Item>
-        <ListGroup.Item>  Preffered Area Of Expertise : {PrefferedAreaOfExpertise}</ListGroup.Item>
+    <ListGroup.Item>First Name </ListGroup.Item>
+    <ListGroup.Item className='top'>{firstName} </ListGroup.Item>
+        <ListGroup.Item>Second Name </ListGroup.Item>
+        <ListGroup.Item className='top'> {lastName} </ListGroup.Item>
+        <ListGroup.Item >Email Name  </ListGroup.Item>
+        <ListGroup.Item className='top'> {email} </ListGroup.Item>
+        <ListGroup.Item> gender</ListGroup.Item>
+        <ListGroup.Item className='top'> {gender}</ListGroup.Item>
+        <ListGroup.Item>  birthday </ListGroup.Item>
+        <ListGroup.Item className='top'>  {birthday}</ListGroup.Item>
+        <ListGroup.Item> Level Of Education </ListGroup.Item>
+        <ListGroup.Item className='top'> {levelOfEducation}</ListGroup.Item>
+        <ListGroup.Item>  Preffered Area Of Expertise </ListGroup.Item>
+        <ListGroup.Item className='top'> {PrefferedAreaOfExpertise}</ListGroup.Item>
         <ListGroup.Item>  Price : ₦ 12,000</ListGroup.Item>
     </ListGroup>
     <div className='buttonWrapper'>

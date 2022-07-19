@@ -34,6 +34,12 @@ input, select, option {
   background-color: aliceblue;
 }
 
+@media screen and (max-width: 520px) {
+  input, select, option {
+    width: 300px;
+  }
+}
+
 .gender {
   color: black;
 }

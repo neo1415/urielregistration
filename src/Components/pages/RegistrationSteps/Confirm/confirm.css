@@ -20,19 +20,43 @@
 
 .confirm {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  height: 90vh;
-  justify-content: center;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.596), white), url("../../../../Assets/confirmBG.jpg") !important;
+  height: auto;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(44, 43, 43, 0.596), #141414), url("../../../../Assets/confirmBG.jpg") !important;
+}
+
+.confirmTitle {
+  margin-top: 5rem;
+}
+
+.list-group {
+  margin-bottom: 3rem;
 }
 
 .list-group-item {
   font-weight: 700;
-  font-size: 1rem;
   height: 2rem;
+  border-radius: 7px;
 }
 
 .list-group {
   width: 60rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 520px) {
+  .list-group {
+    width: 25rem;
+  }
+}
+
+.top {
+  height: 3rem;
+  background-color: #3232f1;
+  margin-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid blue;
+  color: white;
 }
