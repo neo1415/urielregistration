@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+span{
+  background:linear-gradient(to right, rgb(22, 94, 250) 0%, #bf2e46 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+body{
+  overflow-x: hidden;
+  @media screen and (max-width:820px) {
+    paadding-left:2rem;
+    padding-right:2rem;
+  }
+}
+
+
+@media screen and (max-width:1050px) {
+  html,body
+{
+  
+    overflow-x: hidden !important;
+
+}
+
+}
+@media screen and (max-width:560px) {
+  html,body
+{
+  
+    overflow-x: hidden !important;
+
+}
+
+}

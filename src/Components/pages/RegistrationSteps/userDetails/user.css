@@ -1,0 +1,36 @@
+.formTitle {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.userform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.596), white), url("../../../../Assets/formBG.jpg") !important;
+  height: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input, select, option {
+  margin: 1.5rem 0;
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+.gender {
+  color: black;
+}
+
+label {
+  font-weight: 600;
+}

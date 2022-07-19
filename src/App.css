@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+span{
+  background:linear-gradient(to right, rgb(22, 94, 250) 0%, #bf2e46 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  text-transform: uppercase;
+}

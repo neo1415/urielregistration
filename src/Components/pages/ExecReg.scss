@@ -1,0 +1,22 @@
+
+button{
+    // position: absolute;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 120px;
+    margin: 0 1rem;
+    // right: 45%;
+    height: 40px;
+    color: white;
+    border-radius: 8px;
+    background-color: rgb(29, 104, 245);
+}
+.button-wrapper{
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
