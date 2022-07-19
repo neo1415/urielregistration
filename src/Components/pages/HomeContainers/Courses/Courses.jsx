@@ -58,7 +58,7 @@ const Courses = () => {
                  whileInView={{scale:[0,1]}}
             transition={{duration:1,ease:'easeInOut'}}
                   className='image'>
-                    <img src={images.Hero3} alt='executive' />
+                    <img src={images.executive} alt='executive' />
                 </motion.div>
                 <motion.div 
                  whileInView={{x: [-300, 0]}}
