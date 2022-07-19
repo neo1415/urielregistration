@@ -19,7 +19,7 @@
 .login button {
   width: 200px;
   height: 30px;
-  background-color: var(--secondary-color);
+  background-color: #3535f0;
   color: white;
   font-weight: bold;
   cursor: pointer;

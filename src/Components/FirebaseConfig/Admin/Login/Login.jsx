@@ -34,7 +34,7 @@ const handleLogin = (e) => {
         <form onSubmit={handleLogin}>
             <input type='email' placeholder='email' onChange={(e)=> setEmail(e.target.value)} />
             <input type='password' placeholder='password' onChange={(e)=> setPassword(e.target.value)} />
-            <button type='submit'>Login</button>
+            <button type='loginsubmit'>Login</button>
             { error && <span className='error'>Wrong Email or Password</span>}
 
         </form>
