@@ -14,8 +14,7 @@ const Footer = () => {
             <div className='SocialMedia'>
                 <div className='SocialMediaWrap'>
                 {/* <SocialLogo to ='/' onClick={toggleHome}>Poise</SocialLogo> */}
-                <div className='WebsiteRights'>UrielSproutsLimited @ {new Date().getFullYear() } 
-                 All rights reserved</div>
+                <div className='WebsiteRights'>UrielSproutsLimited @ {new Date().getFullYear() }  All rights reserved</div>
                 <div className='SocialIcons'>
                     <div className='SocialIconLink' href='//www.facebook.com' target ='_blank' aria-label="FaceBook">
                         <FaFacebook />
