@@ -44,7 +44,7 @@ const Courses = () => {
                     problem solving and communication abilities to meet the expectations of employers. </p>
                     </div>
                     <div className='course-list'>
-                    <ul>
+                    <ul className='ul'>
                         <li> <FaCheckCircle style={checkStyle} />  Workplace Skills and Knowledge  </li>
                         <li> <FaCheckCircle style={checkStyle} />  How to build a Winning Resume/CV </li>
                         <li> <FaCheckCircle style={checkStyle} />  Interview Skills and Impression Management </li>
@@ -73,7 +73,7 @@ const Courses = () => {
                     secured job interviews with minimum of 3-Months Internship Opportunities. These experiences will further expose you to the world of work. </p>
                     </div>
                     <div className='course-list'>
-                    <ul>
+                    <ul className='ul'>
                         <li> <FaCheckCircle style={checkStyle} />  Workplace Skills and knowledge </li>
                         <li> <FaCheckCircle style={checkStyle} />  How to build a Winning Resume/CV </li>
                         <li> <FaCheckCircle style={checkStyle} />  Interview Skills and Impression Management </li>
